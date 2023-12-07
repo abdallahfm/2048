@@ -1,0 +1,95 @@
+body {
+    height: 90vh;
+    background-color:#41B3A3;    
+    text-align: center;
+    /* background-image:  url("https://images.unsplash.com/photo-1559657693-e816ff3bd9af?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-size: auto ;   */
+}
+
+h1{
+    font-size: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rect{
+    margin-top: 40px;
+text-align: center;
+   border: 1px solid black;
+    width:500px;
+    height:500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+   
+}
+.square{
+    background-color: #cdc1b4;
+    width: 123px;
+    height: 123px;
+    border: 1px solid black;
+}
+
+.isActive{
+    transition: all 250ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee4da;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.two{
+    background-color:#eee4da;
+}
+.four{
+    background-color:#ede0c8;
+}
+.eight{
+    background-color:#f2b179;
+}
+.sixteen{
+    background-color:#f59563;
+}
+
+.thirtytwo{
+    background-color:#f67c60;
+}
+
+
+.sixtyfour{
+    background-color:#f65e3b;
+}
+.onetwoeight{
+    font-size: 55px;
+    background-color:#edcf73;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.twofivesix{
+    font-size: 65px;
+    background-color:#edcc62;
+}
+.fivetwilve{font-size: 55px;
+    background-color:#edc850;
+}
+
+.onek{font-size: 55px;
+    background-color:#edc53f;
+}
+
+.twok{font-size: 55px;
+    background-color:#edc22d;
+}
+button{
+    border-radius: 50px;
+    border: 1px solid black;
+}
